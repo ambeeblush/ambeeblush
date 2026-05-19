@@ -1,45 +1,42 @@
-# 👋 Hi, I'm Ambra Dondi
+# Hi, I'm Ambra Dondi 👋
 
-**Image Analysis Scientist & Technologist** building automated pipelines that transform complex 3D imaging data into quantitative insights. With 10+ years of experience and a PhD in Systems Medicine, I specialize in deep learning segmentation, multi-dimensional signal quantification, and scalable analysis workflows. My tools solve problems across **any domain** where images need to become numbers—from manufacturing QC to satellite imagery to materials science.
+**Image Analysis Scientist & Technologist** building automated pipelines that transform complex imaging data into quantitative insights. With 10+ years of experience developing computational solutions for 3D segmentation, object tracking, and spatial analysis, I specialize in turning challenging image analysis problems into reproducible, scalable workflows. My expertise spans deep learning segmentation, morphological analysis, and multi-dimensional signal quantification—techniques that translate across any domain where images become data.
 
-📍 Milan, Italy | 🏛️ European Institute of Oncology (IEO)
+📍 European Institute of Oncology (IEO), Milan | 🎓 PhD in Systems Medicine
 
 ---
 
 ## 🔧 What I Build
 
-| **Technique** | **Tools & Methods** |
-|---------------|---------------------|
-| Instance Segmentation | Cellpose, deep learning, connected components, watershed |
-| 3D Image Processing | Volumetric filtering, anisotropic handling, z-stack analysis |
-| Skeleton & Network Analysis | Binary thinning, graph extraction, FilFinder, skan |
-| Colocalization & Correlation | Pearson coefficients, region-based quantification |
-| Image Registration | Phase cross-correlation, multi-modal alignment |
-| Feature Extraction | Region properties, morphological descriptors, intensity statistics |
-| GPU Acceleration | pyclesperanto, CUDA-enabled processing |
+| **Problem Type** | **Core Techniques** | **Tools** |
+|------------------|---------------------|-----------|
+| 3D Object Segmentation | Deep learning instance segmentation, thresholding, morphological filtering | Cellpose, scikit-image, ITK |
+| Network/Filament Analysis | Skeletonization, graph-based path analysis, tubeness filtering | skan, ITK, FilFinder |
+| Spatial Quantification | Region properties, colocalization metrics, intensity profiling | NumPy, SciPy, pandas |
+| Multi-Modal Registration | Phase cross-correlation, affine transforms | scikit-image, SimpleITK |
+| Time-Series Tracking | Object assignment, event detection, dynamics quantification | pandas, scipy, matplotlib |
+| GPU-Accelerated Processing | Parallel filtering, label operations | pyclesperanto, PyTorch |
 
 ---
 
-## 📦 Pipeline Demos
+## 📂 Pipeline Demos
 
-Each repository contains **working code**, sample data handling, and documentation showing the computational approach.
-
-| Repository | Description | Core Techniques |
-|------------|-------------|-----------------|
-| [**3d-cell-segmentation-quantifier-demo**](https://github.com/ambeeblush/3d-cell-segmentation-quantifier-demo) | 3D instance segmentation with multi-channel colocalization analysis | `deep-learning` `3D-morphology` `colocalization` |
-| [**3d-compartment-quantifier-demo**](https://github.com/ambeeblush/3d-compartment-quantifier-demo) | Nested region quantification for layered 3D structures | `instance-segmentation` `region-analysis` `correlation` |
-| [**nuclear-foci-counter-demo**](https://github.com/ambeeblush/nuclear-foci-counter-demo) | Automated spot detection and counting within segmented regions | `spot-detection` `intensity-quantification` `deep-learning` |
-| [**nuclear-intensity-quantifier-demo**](https://github.com/ambeeblush/nuclear-intensity-quantifier-demo) | Per-object signal measurement in 3D volumes | `3D-processing` `region-properties` `batch-analysis` |
-| [**cell-area-segmentation-demo**](https://github.com/ambeeblush/cell-area-segmentation-demo) | Morphological segmentation with area/size quantification | `thresholding` `gamma-correction` `shape-analysis` |
-| [**structure-activity-quantifier-demo**](https://github.com/ambeeblush/structure-activity-quantifier-demo) | Skeleton extraction + active/inactive ratio quantification | `skeletonization` `GPU-accelerated` `network-analysis` |
-| [**3d-cell-skeleton-analyzer-demo**](https://github.com/ambeeblush/3d-cell-skeleton-analyzer-demo) | 3D network extraction with tubeness filtering and graph analysis | `sato-filter` `hysteresis` `skeleton-graphs` |
-| [**3d-filament-skeleton-analysis-demo**](https://github.com/ambeeblush/3d-filament-skeleton-analysis-demo) | Filament segmentation with alpha-shape hull computation | `hessian-filtering` `alpha-shapes` `graph-extraction` |
-| [**cell-compartment-droplet-quantifier-demo**](https://github.com/ambeeblush/cell-compartment-droplet-quantifier-demo) | Multi-compartment segmentation with internal object quantification | `morphological-classification` `droplet-detection` `GPU-processing` |
-| [**multichannel-3d-registration-demo**](https://github.com/ambeeblush/multichannel-3d-registration-demo) | Multi-acquisition alignment via phase correlation | `image-registration` `cross-correlation` `multi-modal` |
-| [**spot-colocalization-demo**](https://github.com/ambeeblush/spot-colocalization-demo) | Spatial colocalization analysis between two signal channels | `pearson-correlation` `region-based` `3D-analysis` |
-| [**3d-cell-compartment-analyzer-demo**](https://github.com/ambeeblush/3d-cell-compartment-analyzer-demo) | Full compartment segmentation + skeleton + distance transforms | `ITK-skeletonization` `distance-transform` `label-operations` |
-| [**filament-dynamics-tracker-demo**](https://github.com/ambeeblush/filament-dynamics-tracker-demo) | Time-series tracking of elongated structure dynamics | `time-lapse` `event-detection` `line-profiles` |
-| [**3d-cell-segmentation-demo**](https://github.com/ambeeblush/3d-cell-segmentation-demo) | 3D deep learning segmentation with morphological filtering | `Li-thresholding` `connected-components` `object-filtering` |
+| Repository | Description | Techniques |
+|------------|-------------|------------|
+| [3d-cell-segmentation-quantifier-demo](https://github.com/ambeeblush/3d-cell-segmentation-quantifier-demo) | 3D instance segmentation with multi-channel colocalization analysis | `deep-learning` `3D-morphology` `colocalization` |
+| [3d-compartment-quantifier-demo](https://github.com/ambeeblush/3d-compartment-quantifier-demo) | Nested region quantification for measuring signal redistribution across compartments | `instance-segmentation` `region-analysis` `pearson-correlation` |
+| [nuclear-foci-counter-demo](https://github.com/ambeeblush/nuclear-foci-counter-demo) | Automated spot detection and counting within segmented regions | `spot-detection` `intensity-quantification` `multi-channel` |
+| [nuclear-intensity-quantifier-demo](https://github.com/ambeeblush/nuclear-intensity-quantifier-demo) | Per-object signal intensity measurement in 3D volumes | `3D-processing` `region-properties` `batch-analysis` |
+| [cell-area-segmentation-demo](https://github.com/ambeeblush/cell-area-segmentation-demo) | Morphological segmentation with area quantification | `gamma-correction` `thresholding` `size-distribution` |
+| [structure-activity-quantifier-demo](https://github.com/ambeeblush/structure-activity-quantifier-demo) | Skeleton-based ratio analysis for active vs. total structure quantification | `skeletonization` `graph-analysis` `GPU-acceleration` |
+| [3d-cell-skeleton-analyzer-demo](https://github.com/ambeeblush/3d-cell-skeleton-analyzer-demo) | Network extraction and spatial relationship quantification in 3D | `tubeness-filter` `hysteresis-thresholding` `skeleton-graphs` |
+| [3d-filament-skeleton-analysis-demo](https://github.com/ambeeblush/3d-filament-skeleton-analysis-demo) | Thin structure segmentation with concave hull and skeleton statistics | `hessian-filtering` `alpha-shapes` `morphological-stats` |
+| [cell-compartment-droplet-quantifier-demo](https://github.com/ambeeblush/cell-compartment-droplet-quantifier-demo) | Internal object quantification with shape-based classification | `droplet-detection` `shape-analysis` `multi-channel-registration` |
+| [multichannel-3d-registration-demo](https://github.com/ambeeblush/multichannel-3d-registration-demo) | Multi-acquisition alignment via phase correlation | `image-registration` `cross-correlation` `temporal-alignment` |
+| [spot-colocalization-demo](https://github.com/ambeeblush/spot-colocalization-demo) | Spatial colocalization analysis between distinct signal populations | `colocalization` `pearson-coefficient` `region-based-analysis` |
+| [3d-cell-compartment-analyzer-demo](https://github.com/ambeeblush/3d-cell-compartment-analyzer-demo) | Hierarchical compartment segmentation with skeleton path analysis | `label-expansion` `distance-transform` `ITK-skeletonization` |
+| [filament-dynamics-tracker-demo](https://github.com/ambeeblush/filament-dynamics-tracker-demo) | Time-lapse tracking of elongated structures with event detection | `time-series` `length-tracking` `phenotype-classification` |
+| [3d-cell-segmentation-demo](https://github.com/ambeeblush/3d-cell-segmentation-demo) | Robust 3D segmentation with morphological filtering and quality control | `connected-components` `circularity-filtering` `anisotropic-processing` |
 
 ---
 
@@ -47,45 +44,27 @@ Each repository contains **working code**, sample data handling, and documentati
 
 | Year | Journal | Contribution |
 |------|---------|--------------|
-| — | — | *Coming soon* |
+| *Coming soon* | — | — |
 
 ---
 
 ## 🛠️ Tech Stack
 
 ```python
-# Core Scientific Computing
-numpy, pandas, scipy
-
-# Image Processing & Analysis
-scikit-image, aicsimageio, tifffile, itk, napari
-
-# Deep Learning Segmentation
-cellpose, torch
-
-# Skeleton & Network Analysis
-skan, fil_finder, alphashape
-
-# GPU Acceleration
-pyclesperanto_prototype
-
-# Visualization
-napari, matplotlib
-
-# File Formats
-bioformats, mrc, tifffile
+core_libraries = ["numpy", "pandas", "scipy", "scikit-image"]
+deep_learning = ["cellpose", "torch"]
+specialized = ["ITK", "SimpleITK", "skan", "fil_finder", "alphashape"]
+gpu_compute = ["pyclesperanto_prototype"]
+visualization = ["napari", "matplotlib"]
+io_formats = ["aicsimageio", "tifffile", "bioformats", "mrc"]
 ```
 
 ---
 
-## 🤝 Let's Collaborate
+## 🤝 Let's Connect
 
-I'm always interested in challenging image analysis problems—**regardless of domain**. Whether you're working with satellite imagery, industrial CT scans, materials characterization, or any field where you need to extract quantitative measurements from images, I'd love to connect.
+I'm always interested in collaborating on challenging image analysis problems—whether in **materials science**, **remote sensing**, **manufacturing QC**, **astronomy**, or any field where extracting quantitative data from images matters.
 
-- 💼 [LinkedIn](https://linkedin.com/in/ambra-dondi)
-- 📧 Reach out for consulting, collaborations, or just to chat about image analysis
-- ⭐ Star a repo if you find it useful!
+📫 **Reach out:** [LinkedIn](https://linkedin.com/in/ambradondi) | ambra.dondi@ieo.it
 
----
-
-*"Every image is data waiting to be quantified."*
+*If you're facing a complex image analysis challenge or want to discuss potential collaborations, don't hesitate to open an issue on any repo or send me a message!*
