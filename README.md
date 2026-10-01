@@ -33,7 +33,7 @@ Rotating 3D movies that put raw microscopy data and analysis results side by sid
 
 ## Why most of my code isn't public (yet)
 
-In academic research, analysis code usually goes out together with the paper it was written for, and several of the projects I've worked on are still unpublished. The full pipelines will be released as their papers come out. In the meantime, the demos below show the techniques on their own, and the publications show where my analyses ended up.
+In academic research, analysis code usually goes out together with the paper it was written for, and several of the projects I've worked on are still unpublished. The full pipelines will be released as their papers come out. In the meantime, have a look to the publications where my analyses ended up.
 
 
 
@@ -52,11 +52,11 @@ In academic research, analysis code usually goes out together with the paper it 
 <!--Full list on [ORCID](https://orcid.org/0000-0001-7594-2105).-->
 
 
-## Technique demos
 
-✨ *coming soon* ✨
 
-<!--Small, self-contained examples of the building blocks I use in larger pipelines.
+<!--## Technique demos
+
+Small, self-contained examples of the building blocks I use in larger pipelines.
 
 **3D segmentation and quantification**
 - [3d-cell-segmentation-demo](https://github.com/ambeeblush/3d-cell-segmentation-demo): Cellpose segmentation of anisotropic 3D stacks, with morphological filtering and separation of touching objects
