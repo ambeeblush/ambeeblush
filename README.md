@@ -25,7 +25,7 @@ Rotating 3D movies that put raw microscopy data and analysis results side by sid
 
 `Python` `3D rendering` `BioIO` `pyclesperanto (GPU)` `YAML config` `SLURM`
 
-### Coming next: POLARIS
+### ✨ Coming next ✨: *POLARIS*
 
 3D quantification of mitochondrial redistribution around functionalized beads, the analysis behind [Eli et al., *Nature Communications* 2025](https://doi.org/10.1038/s41467-025-65775-z). I'm turning the original script into a clean, documented package.
 
