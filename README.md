@@ -4,7 +4,8 @@ I'm a bioimage analyst at the Imaging Unit of IEO (European Institute of Oncolog
 
 I'm a bit obsessed with 3D analysis, as cells are three-dimensional. I'm convinced that analyzing them as flat images can hide real biological differences or, worse, produce numbers that look fine but can't be trusted. So in my analysis pipelines every step is designed on the full volume. I write them in Python and run them as batch jobs on our SLURM cluster, so the same analysis scales from a single test image to an entire experiment, analyzing hundreds of cells per sample in exactly the same way.
 
-I'm now looking for roles where these skills travel beyond biology. Images are images, whether they come from a microscope, a satellite, a pathology slide scanner or a camera on a production line: noisy signal, objects to segment, and measurements that people need to be able to trust.
+I'm now looking to bring this experience from academia to industry, as an image analyst or computer vision scientist. I'm especially drawn to teams where quantitative imaging is at the core of the work, such as biotech and pharma R&D or digital pathology. But images are images, whether they come from a microscope, a satellite or a camera on a production line: noisy signal, objects to segment, and measurements that people need to be able to trust. Based in Milan, open to [hybrid / remote] roles.
+
 
 <!-- PLACEHOLDER — one line on what you're looking for, if you want to be explicit,
      e.g. "Open to image analysis / computer vision roles in Milan or remote." -->
