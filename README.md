@@ -1,6 +1,6 @@
 # Hi, I'm Ambra
 
-I'm a bioimage analyst at the Imaging Unit of IEO (European Institute of Oncology) in Milan, a biologist by training with a PhD in Systems Medicine. For almost ten years I've been turning microscopy images into numbers that scientists can build conclusions on: segmenting cells and nuclei, tracing mitochondrial and microtubule networks in 3D, measuring how signals are distributed inside the cell.
+I'm a bioimage analyst at the Imaging Unit of IEO (European Institute of Oncology) in Milan, a biologist by training with a PhD in Molecular Oncology. For almost ten years I've been turning microscopy images into numbers that scientists can build conclusions on: segmenting cells and nuclei, tracing mitochondrial and microtubule networks in 3D, measuring how signals are distributed inside the cell.
 
 I'm a bit obsessed with 3D analysis, as cells are three-dimensional. I'm convinced that analyzing them as flat images can hide real biological differences or, worse, produce numbers that look fine but can't be trusted. So in my analysis pipelines every step is designed on the full volume. I write them in Python and run them as batch jobs on our SLURM cluster, so the same analysis scales from a single test image to an entire experiment, analyzing hundreds of cells per sample in exactly the same way.
 
